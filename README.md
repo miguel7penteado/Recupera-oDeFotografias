@@ -22,16 +22,7 @@ Expandiremos este README com uma lista de hiperparâmetros e opções em breve.
 
 # Instalação:
 
-Aqui está a lista de bibliotecas que você precisa instalar para executar o código:
-- python = 3.6
-- [pytorch](http://pytorch.org/) = 0.4
-- numpy
-- scipy
-- matplotlib
-- scikit-image
-- jupyter
-
-## se você não tem GPU em sua máquina
+### se você não tem GPU (placa de vídeo) em sua máquina
 
 no linux
 ```bash
@@ -41,6 +32,18 @@ no windows
 ```cmd
 set CUDA_VISIBLE_DEVICES=""
 ```
+
+### Dependências
+
+Aqui está a lista de bibliotecas que você precisa instalar para executar o código:
+- python = 3.6
+- [pytorch](http://pytorch.org/) = 0.4
+- numpy
+- scipy
+- matplotlib
+- scikit-image
+- jupyter
+
 
 Todos estes pacotes podem ser instalados através do sistema anaconda: `conda` (`anaconda`), e.g.
 ```
