@@ -31,7 +31,18 @@ Aqui está a lista de bibliotecas que você precisa instalar para executar o có
 - scikit-image
 - jupyter
 
-All of them can be installed via `conda` (`anaconda`), e.g.
+## se você não tem GPU em sua máquina
+
+no linux
+```bash
+export CUDA_VISIBLE_DEVICES=""
+```
+no windows
+```cmd
+set CUDA_VISIBLE_DEVICES=""
+```
+
+Todos estes pacotes podem ser instalados através do sistema anaconda: `conda` (`anaconda`), e.g.
 ```
 conda install jupyter
 ```
