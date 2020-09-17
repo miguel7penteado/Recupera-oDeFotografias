@@ -48,7 +48,7 @@ Aqui está a lista de bibliotecas que você precisa instalar para executar o có
 
 Para não comprometer as instalações originais do seu sistema operacional preferido, uma das opções é instalar ao nível de usuário os pacotes com o PIP
 ```
-pip install --user --upgrade torch pygments jupyterlab-pygments  numpy scipy matplotlib scikit-image jupyter
+pip install --user --upgrade torch torchvision pygments jupyterlab-pygments  numpy scipy matplotlib scikit-image jupyter
 ```
 Não esqueça de atualizar o a variável de ambiente `PATH` para que sua instalação de python ache os pacotes no diretório do usuário.
 Por exemplo no linux debian:
